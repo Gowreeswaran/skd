@@ -8,7 +8,7 @@
         <div class="p-5">
             <div class="text-center">
                 <h1 class="h4 text-gray-900 mb-4">Login</h1>
-                <i class="fa fa-user-circle login-icon" aria-hidden="true"></i>
+                
             </div>
             <form name="loginForm" method="POST" action="index.php" class="user">
                 <div class="form-group">
