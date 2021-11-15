@@ -44,10 +44,10 @@
             <?php
             
               if(isset($_GET['forgetpassword'])){
-                include 'layouts\forgotpassword.php';
+                include 'layouts/forgotpassword.php';
               }
               else{
-                include 'layouts\login.php';
+                include 'layouts/login.php';
               }
             
             ?>
