@@ -53,7 +53,7 @@
   <!-- Page Wrapper -->
   <div id="wrapper">
     
-    <?php include 'layouts\userLayouts\usidebar.php';?>
+    <?php include 'layouts/userLayouts/usidebar.php';?>
 
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
@@ -61,7 +61,7 @@
       <!-- Main Content -->
       <div id="content">
 
-        <?php include 'layouts\userLayouts\utopbar.php';?>
+        <?php include 'layouts/userLayouts/utopbar.php';?>
 
         <!-- Begin Page Content -->
         <div class="container-fluid">
@@ -69,61 +69,61 @@
         <?php
 
           if(isset($_GET['cd'])){
-            include 'layouts\userLayouts\ucustomersdata.php';
+            include 'layouts/userLayouts/ucustomersdata.php';
           }
           if(isset($_GET['sd'])){
-            include 'layouts\userLayouts\ustaffsdata.php';
+            include 'layouts/userLayouts/ustaffsdata.php';
           }
           if(isset($_GET['rd'])){
-            include 'layouts\userLayouts\uroutesdata.php';
+            include 'layouts/userLayouts/uroutesdata.php';
           }
           if(isset($_GET['grnd'])){
-            include 'layouts\userLayouts\ugrndata.php';
+            include 'layouts/userLayouts/ugrndata.php';
           }
           if(isset($_GET['crdsd'])){
-            include 'layouts\userLayouts\ucrdsale.php';
+            include 'layouts/userLayouts/ucrdsale.php';
           }
           if(isset($_GET['chqsd'])){
-            include 'layouts\userLayouts\uchqsale.php';
+            include 'layouts/userLayouts/uchqsale.php';
           }
           if(isset($_GET['cahsd'])){
-            include 'layouts\userLayouts\uchssale.php';
+            include 'layouts/userLayouts/uchssale.php';
           }
           if(isset($_GET['acbillnrepcol'])){
-            include 'layouts\userLayouts\uacbirhtcol.php';
+            include 'layouts/userLayouts/uacbirhtcol.php';
           }
           if(isset($_GET['cshdep'])){
-            include 'layouts\userLayouts\ucshdep.php';
+            include 'layouts/userLayouts/ucshdep.php';
           }
           if(isset($_GET['chqdep'])){
-            include 'layouts\userLayouts\uchqdep.php';
+            include 'layouts/userLayouts/uchqdep.php';
           }
           if(isset($_GET['voucher'])){
-            include 'layouts\userLayouts\uvoucher.php';
+            include 'layouts/userLayouts/uvoucher.php';
           }
           if(isset($_GET['expensive'])){
-            include 'layouts\userLayouts\uexpensive.php';
+            include 'layouts/userLayouts/uexpensive.php';
           }
           if(isset($_GET['acbcr'])){
-            include 'layouts\userLayouts\uacbcolt.php';
+            include 'layouts/userLayouts/uacbcolt.php';
           }
           if(isset($_GET['profile'])){
-            include 'layouts\userLayouts\uprofile.php';
+            include 'layouts/userLayouts/uprofile.php';
           }
           if(isset($_GET['ledgerview'])){
-            include 'layouts\userLayouts\uledgerview.php';
+            include 'layouts/userLayouts/uledgerview.php';
           }
           if(isset($_GET['tsr'])){
-            include 'layouts\userLayouts\utsr.php';
+            include 'layouts/userLayouts/utsr.php';
           }
           if(isset($_GET['tsrcb'])){
-            include 'layouts\userLayouts\utsrcb.php';
+            include 'layouts/userLayouts/utsrcb.php';
           }
           if(isset($_GET['salary'])){
-            include 'layouts\userLayouts\usalary.php';
+            include 'layouts/userLayouts/usalary.php';
           }
           if(!isset($_GET['bb']) && !isset($_GET['cd']) && !isset($_GET['sd']) && !isset($_GET['rd']) && !isset($_GET['grnd']) && !isset($_GET['crdsd']) && !isset($_GET['chqsd']) && !isset($_GET['cahsd']) && !isset($_GET['acbillnrepcol']) && !isset($_GET['cshdep']) && !isset($_GET['chqdep']) && !isset($_GET['voucher']) && !isset($_GET['expensive']) && !isset($_GET['tsr']) && !isset($_GET['acbcr']) && !isset($_GET['ledgerview']) && !isset($_GET['salary']) && !isset($_GET['profile']) && !isset($_GET['ledgerview']) && !isset($_GET['tsr']) && !isset($_GET['tsrcb']) && !isset($_GET['salary'])){
-            include 'layouts\userLayouts\udashboard.php';
+            include 'layouts/userLayouts/udashboard.php';
           }
 
           
@@ -137,7 +137,7 @@
       <!-- End of Main Content -->
 
       <!-- Footer -->
-      <?php include 'layouts\userLayouts\ufoot.php'; ?>
+      <?php include 'layouts/userLayouts/ufoot.php'; ?>
       <!-- End of Footer -->
 
     </div>

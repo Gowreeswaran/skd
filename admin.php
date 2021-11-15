@@ -72,7 +72,7 @@
   <!-- Page Wrapper -->
   <div id="wrapper">
     
-    <?php include_once 'layouts\adminLayouts\asidebar.php';?>
+    <?php include_once 'layouts/adminLayouts/asidebar.php';?>
 
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
@@ -80,7 +80,7 @@
       <!-- Main Content -->
       <div id="content">
 
-        <?php include_once 'layouts\adminLayouts\atopbar.php';?>
+        <?php include_once 'layouts/adminLayouts/atopbar.php';?>
 
         <!-- Begin Page Content -->
         <div class="container-fluid">
@@ -88,67 +88,67 @@
         <?php
 
           if(isset($_GET['bb'])){
-            include_once 'layouts\adminLayouts\abillboard.php';
+            include_once 'layouts/adminLayouts/abillboard.php';
           }
           if(isset($_GET['cd'])){
-            include_once 'layouts\adminLayouts\acustomersdata.php';
+            include_once 'layouts/adminLayouts/acustomersdata.php';
           }
           if(isset($_GET['sd'])){
-            include_once 'layouts\adminLayouts\astaffsdata.php';
+            include_once 'layouts/adminLayouts/astaffsdata.php';
           }
           if(isset($_GET['rd'])){
-            include_once 'layouts\adminLayouts\aroutesdata.php';
+            include_once 'layouts/adminLayouts/aroutesdata.php';
           }
           if(isset($_GET['grnd'])){
-            include_once 'layouts\adminLayouts\agrndata.php';
+            include_once 'layouts/adminLayouts/agrndata.php';
           }
           if(isset($_GET['crdsd'])){
-            include_once 'layouts\adminLayouts\acrdsale.php';
+            include_once 'layouts/adminLayouts/acrdsale.php';
           }
           if(isset($_GET['chqsd'])){
-            include_once 'layouts\adminLayouts\achqsale.php';
+            include_once 'layouts/adminLayouts/achqsale.php';
           }
           if(isset($_GET['cahsd'])){
-            include_once 'layouts\adminLayouts\achssale.php';
+            include_once 'layouts/adminLayouts/achssale.php';
           }
           if(isset($_GET['acbillnrepcol'])){
-            include_once 'layouts\adminLayouts\aacbirhtcol.php';
+            include_once 'layouts/adminLayouts/aacbirhtcol.php';
           }
           if(isset($_GET['cshdep'])){
-            include_once 'layouts\adminLayouts\acshdep.php';
+            include_once 'layouts/adminLayouts/acshdep.php';
           }
           if(isset($_GET['chqdep'])){
-            include_once 'layouts\adminLayouts\achqdep.php';
+            include_once 'layouts/adminLayouts/achqdep.php';
           }
           if(isset($_GET['voucher'])){
-            include_once 'layouts\adminLayouts\avoucher.php';
+            include_once 'layouts/adminLayouts/avoucher.php';
           }
           if(isset($_GET['expensive'])){
-            include_once 'layouts\adminLayouts\aexpensive.php';
+            include_once 'layouts/adminLayouts/aexpensive.php';
           }
           if(isset($_GET['tsr'])){
-            include_once 'layouts\adminLayouts\atsr.php';
+            include_once 'layouts/adminLayouts/atsr.php';
           }
           if(isset($_GET['tsrcb'])){
-            include_once 'layouts\adminLayouts\atsrcb.php';
+            include_once 'layouts/adminLayouts/atsrcb.php';
           }
           if(isset($_GET['acbcr'])){
-            include_once 'layouts\adminLayouts\aacbcolt.php';
+            include_once 'layouts/adminLayouts/aacbcolt.php';
           }
           if(isset($_GET['ledgerview'])){
-            include_once 'layouts\adminLayouts\aledgerview.php';
+            include_once 'layouts/adminLayouts/aledgerview.php';
           }
           if(isset($_GET['salary'])){
-            include_once 'layouts\adminLayouts\asalary.php';
+            include_once 'layouts/adminLayouts/asalary.php';
           }
           if(isset($_GET['salary'])){
-            include_once 'layouts\adminLayouts\asalary.php';
+            include_once 'layouts/adminLayouts/asalary.php';
           }
           if(isset($_GET['profit'])){
-            include_once 'layouts\adminLayouts\aprofit.php';
+            include_once 'layouts/adminLayouts/aprofit.php';
           }
           if(!isset($_GET['bb']) && !isset($_GET['cd']) && !isset($_GET['sd']) && !isset($_GET['rd']) && !isset($_GET['grnd']) && !isset($_GET['crdsd']) && !isset($_GET['chqsd']) && !isset($_GET['cahsd']) && !isset($_GET['acbillnrepcol']) && !isset($_GET['cshdep']) && !isset($_GET['chqdep']) && !isset($_GET['voucher']) && !isset($_GET['expensive']) && !isset($_GET['tsr']) && !isset($_GET['acbcr']) && !isset($_GET['ledgerview']) && !isset($_GET['salary']) && !isset($_GET['profile']) && !isset($_GET['tsrcb']) && !isset($_GET['profit'])){
-            include_once 'layouts\adminLayouts\adashboard.php';
+            include_once 'layouts/adminLayouts/adashboard.php';
           }
 
           
@@ -162,7 +162,7 @@
       <!-- End of Main Content -->
 
       <!-- Footer -->
-      <?php include_once 'layouts\adminLayouts\afoot.php'; ?>
+      <?php include_once 'layouts/adminLayouts/afoot.php'; ?>
       <!-- End of Footer -->
 
     </div>
