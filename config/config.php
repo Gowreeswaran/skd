@@ -1,8 +1,8 @@
 <?php
 
-    define("HOST", "localhost");
-    define("USERNAME", "root");
-    define("PASSWORD", "");
+    define("HOST", "den1.mysql6.gear.host");
+    define("USERNAME", "skd");
+    define("PASSWORD", "Qr5h8B-?oYI4");
     define("DATABASE", "skd");
 
     $conn = mysqli_connect(HOST,USERNAME,PASSWORD,DATABASE);
